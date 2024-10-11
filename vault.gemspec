@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "vault/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "vault"
+  spec.name          = "cf-vault"
   spec.version       = Vault::VERSION
   spec.authors       = ["Seth Vargo"]
   spec.email         = ["team-vault-devex@hashicorp.com"]
